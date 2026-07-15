@@ -3,8 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](LICENSE)
 [![Data: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](DATA_LICENSE.md)
 [![R 4.5.2](https://img.shields.io/badge/R-4.5.2-276DC3.svg)](SESSION.md)
-<!-- After minting a Zenodo DOI (see "Releasing"), add:
-[![DOI](https://zenodo.org/badge/DOI/XX.XXXX/zenodo.XXXXXXX.svg)](https://doi.org/XX.XXXX/zenodo.XXXXXXX) -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21381692.svg)](https://doi.org/10.5281/zenodo.21381692)
 
 Analysis code and public input data for a simulation study comparing
 **multimodal public-transit** (walking + Riyadh Metro + bus/BRT) against the
@@ -146,6 +145,8 @@ GDAL / GEOS / PROJ.
 
 ## Citation
 
+Archived on Zenodo — **[10.5281/zenodo.21381692](https://doi.org/10.5281/zenodo.21381692)**
+(concept DOI; always resolves to the latest version).
 See **[CITATION.cff](CITATION.cff)** (GitHub's "Cite this repository" button).
 Please also cite the accompanying manuscript once published.
 

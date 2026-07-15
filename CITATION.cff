@@ -30,6 +30,13 @@ authors:
 # ORCIDs: add `orcid: "https://orcid.org/...."` under each author where available.
 version: "1.0.0"
 date-released: "2026-07-15"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21381692"
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.21381693"
+    description: "Version DOI (v1.0.0)"
 license: MIT
 repository-code: "https://github.com/tshihayb/Simulated-Multimodal-Network-Access-to-Dental-Care-in-Megacities"
 keywords:

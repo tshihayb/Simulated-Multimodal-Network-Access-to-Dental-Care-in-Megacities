@@ -12,7 +12,7 @@ type: software
 authors:
   - given-names: "Talal S."
     family-names: Alshihayb
-    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"   # add if available
+    # orcid: "https://orcid.org/0000-0001-5750-4144"   # add if available
   - given-names: Musfer
     family-names: Aldossri
   - given-names: Adhwaa

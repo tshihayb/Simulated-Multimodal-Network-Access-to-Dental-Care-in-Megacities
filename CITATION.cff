@@ -10,11 +10,24 @@ abstract: >-
   speeds, and their robustness.
 type: software
 authors:
-  - given-names: Talal
+  - given-names: "Talal S."
     family-names: Alshihayb
     # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"   # add if available
-# TODO before minting a DOI: add the remaining manuscript co-authors, in author
-# order, each with given-names / family-names (and ORCID where available).
+  - given-names: Musfer
+    family-names: Aldossri
+  - given-names: Adhwaa
+    family-names: Aldghim
+  - given-names: "Shatha Saad"
+    family-names: Alasmary
+  - given-names: "Fahad Khalid"
+    family-names: Almasoudi
+  - given-names: "Rawaf Fouad"
+    family-names: Alghamdi
+  - given-names: "Dana Khalid"
+    family-names: Albassri
+  - given-names: "Hajar Saleh"
+    family-names: Alowayyid
+# ORCIDs: add `orcid: "https://orcid.org/...."` under each author where available.
 version: "1.0.0"
 date-released: "2026-07-15"
 license: MIT

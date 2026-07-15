@@ -9,7 +9,7 @@ for distance work.
 ## `all facilities.xlsx` (sheet `Sheet1`)
 
 Dental-facility inventory for Riyadh. **910 rows**, **10 columns** (exactly the
-fields below — no contact, survey, or quality-control fields are distributed).
+fields below; no contact, survey, or quality-control fields are distributed).
 
 Of the 910 facilities, **766 provide dental services** (732 private + 34
 public); the remaining 144 are non-dental facilities retained for context.
@@ -17,13 +17,13 @@ Ownership overall: 876 private, 34 public.
 
 | Column | Type | Description | Values / code list |
 |---|---|---|---|
-| `id` | integer | Facility identifier (unique within the file). | — |
-| `district_in_arabic` | text | District of the facility (Arabic). | — |
-| `district_in_english` | text | District of the facility (English). | — |
+| `id` | integer | Facility identifier (unique within the file). | n/a |
+| `district_in_arabic` | text | District of the facility (Arabic). | n/a |
+| `district_in_english` | text | District of the facility (English). | n/a |
 | `new_region` | categorical | Official region assigned by Riyadh Municipality. | `North`, `East`, `Center`, `West`, `South` |
 | `type_of_clinic` | categorical | Facility type (full classification). | `Dental clinic only`; `Polyclinic/Cosmetic clinic with dental`; `Polyclinic/Cosmetic clinic without dental`; `Hospital with dental`; `Hospital without dental`; `Primary care center with dental clinic`; `Specialized dental center` |
-| `longitudes` | numeric | Longitude (decimal degrees, WGS84). | — |
-| `latitudes` | numeric | Latitude (decimal degrees, WGS84). | — |
+| `longitudes` | numeric | Longitude (decimal degrees, WGS84). | n/a |
+| `latitudes` | numeric | Latitude (decimal degrees, WGS84). | n/a |
 | `type_with_dental` | categorical | For facilities **with** dental services, the facility category. Blank when the facility has no dental services. | `Dental clinic only`; `Polyclinic/Cosmetic clinic`; `Hospital`; `Primary care center`; `Specialized dental center` |
 | `type_without_dental` | categorical | For facilities **without** dental services, the facility category. Blank otherwise. | `Polyclinic/Cosmetic clinic`; `Hospital` |
 | `private_or_public` | categorical | Ownership sector. | `Private`, `Public` |

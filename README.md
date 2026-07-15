@@ -28,8 +28,8 @@ each origin the study computes and compares:
   line-haul leg on metro and/or bus/BRT with realistic waits and transfer rules,
   and an egress walk.
 
-Facilities are approached at four **anchors** — nearest, median, farthest, and a
-random facility (averaged over repeated draws) — for both **private** and
+Facilities are approached at four **anchors**: nearest, median, farthest, and a
+random facility (averaged over repeated draws), for both **private** and
 **public** ownership, under **unweighted** (uniform) and **population-weighted**
 sampling. Headline outcomes include mean travel time, the share of transit trips
 faster than car, time savings, the **break-even car speed** at which car
@@ -47,7 +47,7 @@ missing-distance imputation method).
 ├── DATA_DICTIONARY.md   field-level documentation of every data file
 ├── SESSION.md           R version + exact package versions
 ├── CITATION.cff         how to cite this repository
-├── LICENSE              MIT — applies to Code/
+├── LICENSE              MIT (applies to Code/)
 ├── DATA_LICENSE.md      CC BY 4.0 (author data) + third-party terms
 └── .gitignore
 ```
@@ -77,12 +77,12 @@ Run from **`Code/`** (scripts assume `Data/` is a sibling directory).
 
 **Main pipeline**
 
-- **`Analysis clean actual road distance.R`** — the full pipeline: data prep,
+- **`Analysis clean actual road distance.R`** runs the full pipeline: data prep,
   network build, facility anchors, per-origin routing, travel-time and
   competitiveness tables, and figures. It `source()`s the revision modules below.
-- `Bus routes sequence and line build up.R` — builds the bus-route object
+- `Bus routes sequence and line build up.R` builds the bus-route object
   (`riyadh_bus_routes_by_code.rds`) consumed by the main script.
-- `run_pop_safe.R` — optional runner that executes the pipeline while
+- `run_pop_safe.R` is an optional runner that executes the pipeline while
   **guaranteeing the restricted population table is never read** (it loads
   supplied intermediates instead of rebuilding them, and refuses to start if any
   are missing).
@@ -145,7 +145,7 @@ GDAL / GEOS / PROJ.
 
 ## Citation
 
-Archived on Zenodo — **[10.5281/zenodo.21381692](https://doi.org/10.5281/zenodo.21381692)**
+Archived on Zenodo: **[10.5281/zenodo.21381692](https://doi.org/10.5281/zenodo.21381692)**
 (concept DOI; always resolves to the latest version).
 See **[CITATION.cff](CITATION.cff)** (GitHub's "Cite this repository" button).
 Please also cite the accompanying manuscript once published.

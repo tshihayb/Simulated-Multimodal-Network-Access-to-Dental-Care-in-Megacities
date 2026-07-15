@@ -3,7 +3,7 @@
 The analysis was run with **R 4.5.2 (2025-10-31 ucrt)** on
 `x86_64-w64-mingw32` (Windows). The package versions used are listed below.
 To reproduce the environment, install R 4.5.2 and these packages from CRAN
-(a few — `dodgr`, `osmextract`, `sf`, `lwgeom` — have system-level geospatial
+(the geospatial packages `dodgr`, `osmextract`, `sf`, and `lwgeom` have system-level
 dependencies: GDAL, GEOS, PROJ).
 
 | Package | Version | | Package | Version |

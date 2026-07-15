@@ -1,0 +1,52 @@
+# =============================================================================
+# RESTRICTED / NON-DISTRIBUTABLE DATA  — never commit
+# =============================================================================
+# Per-district population for Riyadh is GASTAT-restricted and must not be shared.
+# Only the *stripped* districts file (names/region, no population) is distributed.
+2025_06_22_List_of_Riyadh_dsitricts.xlsx
+*_List_of_Riyadh_dsitricts.xlsx
+!*_stripped_of_population.xlsx
+# Any other file that names "population" (defensive) — but keep the stripped file.
+*population*.xlsx
+!*stripped_of_population.xlsx
+
+# =============================================================================
+# LARGE INPUTS — obtain from source (see README), do not track
+# =============================================================================
+# OpenStreetMap extract (~244 MB, exceeds GitHub's 100 MB limit) — Geofabrik.
+*.osm.pbf
+*.pbf
+
+# =============================================================================
+# REGENERABLE INTERMEDIATES — produced by the scripts, some population-derived
+# =============================================================================
+graph_*.rds
+graph_w_*.rds
+roads_sf_*.rds
+random_points_*.rds
+sample_test_results*.rds
+travel_time_*.rds
+R13_*.rds
+R14_*.rds
+table1_new_anchors_*.rds
+clinics_geo_*.rds
+missing_routes_debug.rds
+# ...but keep the one small processed transit input that we DO ship:
+!riyadh_bus_routes_by_code.rds
+
+# =============================================================================
+# RUN LOGS, SECRETS, OS / EDITOR CRUFT
+# =============================================================================
+run_log.txt
+*.log
+.Renviron
+.env
+*.pem
+*.key
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+.DS_Store
+Thumbs.db

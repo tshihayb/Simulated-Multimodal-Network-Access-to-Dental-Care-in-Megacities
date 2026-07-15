@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Simulated Multimodal Network Access to Dental Care in Megacities"
+abstract: >-
+  R code and public input data for a simulation study of multimodal
+  public-transit (walking, metro, and bus/BRT) versus private-car access to
+  dental facilities in Riyadh, Saudi Arabia. Includes the facility inventory,
+  transit and district reference layers, and the analysis scripts used to
+  compute network travel times, transit-vs-car competitiveness, break-even car
+  speeds, and their robustness.
+type: software
+authors:
+  - given-names: Talal
+    family-names: Alshihayb
+    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"   # add if available
+# TODO before minting a DOI: add the remaining manuscript co-authors, in author
+# order, each with given-names / family-names (and ORCID where available).
+version: "1.0.0"
+date-released: "2026-07-15"
+license: MIT
+repository-code: "https://github.com/tshihayb/Simulated-Multimodal-Network-Access-to-Dental-Care-in-Megacities"
+keywords:
+  - "dental care access"
+  - "public transit"
+  - "multimodal accessibility"
+  - "spatial analysis"
+  - "road network distance"
+  - "Riyadh"
+  - "reproducible research"
